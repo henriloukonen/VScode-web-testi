@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:#333f50ff;
+    padding-top: 2px;
+    border-bottom: 4px solid #ffa034ff;
+  }
+
+  /* #fenetreTeksti {
+    float:right;
+    height: 10%;
+    width: 10%;
+    padding: 2px;
+    padding-right: 15px;
+  } */
+  
+  /* Style the topnav links */
+  .topnav a {
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+
+
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ffa034ff;
+    color: black;
+  }
+
+  .topnav a:active {
+    background-color: #940b00ff;
+    color: white;
+  }
+ 
+  /* Style the content */
+  .iframeContent {
+    background-color: #ddd;
+    padding: 10px;
+    border:0;
+    width: 100%;
+    height: 600px;
+  } 
+ 
+ .somelinkit {
+    padding-right: 5px;
+    opacity: 0.7;
+  } 
+  .somelinkit img:hover {
+    opacity: 0.9; 
+  }
+
+  /* .yhteystiedotKuva {
+    background-color: #ddd;
+    background-image: url("fenetre_symboli.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:20%;
+    padding: 10px;
+} */
+
+.sivunOtsikko {
+  border-left: 4px solid #333f50ff;
+  padding-left: 7px; 
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+  /* Style the footer */
+.footer {
+  height: 5em;
+  background-color: #f1f1f1;
+  padding: 1px;
+  width: 100%;
+  padding-left: 0.5em;
+}
